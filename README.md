@@ -3,6 +3,7 @@
 ## Setup
 
 1. To load the database with the initial data, run the following command:
+
 ```bash
 go run utils/load-database.go
 ```
