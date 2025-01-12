@@ -22,7 +22,7 @@ curl -X GET 'http://localhost:8080/appointments/available?trainer_id=1&start_dat
 
 ### Create an appointment
 ```bash
-curl -X POST http://localhost:8080/appointments -H "Content-Type: application/json" -d '{"trainer_id": 1, "user_id": 1, "starts_at": "2019-01-25T09:00:00-08:00", "ends_at": "2019-01-25T09:30:00-08:00"}'
+curl -X POST http://localhost:8080/appointments/create -H "Content-Type: application/json" -d '{"trainer_id": 1, "user_id": 1, "starts_at": "2019-01-25T09:00:00-08:00", "ends_at": "2019-01-25T09:30:00-08:00"}'
 ```
 
 
